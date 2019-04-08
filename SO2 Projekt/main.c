@@ -3,7 +3,7 @@
 
 int main()
 {
-	char str[] = "strtok needs to be called several times to split a string";
+	char str[] = "omar er den stoorste bot paa kloden";
 	int word4word = strlen(str);
 	char delim[] = " ";
 	int NumberOfWords = 0;
