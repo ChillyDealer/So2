@@ -6,21 +6,26 @@ int main()
 	char str[] = "strtok needs to be called several times to split a string";
 	int word4word = strlen(str);
 	char delim[] = " ";
+	int NumberOfWords = 0;
+	int i  = 0;
+
 
 	char *ptr = strtok(str, delim);
 
 	while(ptr != NULL)
 	{
-	    char *str
+	    char *str;
 		printf("'%s'\n", ptr);
 		ptr = strtok(NULL, delim);
+		i++;
+		NumberOfWords++;
+
 	}
-	// hej Greg
 
 	/* This loop will show that there are zeroes in the str after tokenizing */
 	for (int i = 0; i < word4word; i++)
 	{
-		printf("%d ", str[i]); /* Convert the character to integer, in this case
+		printf("%s ", str[i]); /* Convert the character to integer, in this case
 							   the character's ASCII equivalent */
 	}
 	printf("\n");
