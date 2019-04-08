@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1554721601 source:d:\c programming\so2 projekt\main.c
+	<stdio.h>
+	<string.h>
+
