@@ -15,6 +15,7 @@ int main()
 		printf("'%s'\n", ptr);
 		ptr = strtok(NULL, delim);
 	}
+	// hej Greg
 
 	/* This loop will show that there are zeroes in the str after tokenizing */
 	for (int i = 0; i < word4word; i++)
