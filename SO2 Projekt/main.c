@@ -2,10 +2,12 @@
 #include <string.h>
 #include "head.h"
 
+int compare(char string1[]);
+
 int main(){
     int i = 0;
     int yes;
-	char str[] = "det gay i omar er den";
+	char str[] = "Nigger gay i omar er den";
 	char *word4word[20];
 	char delim[] = " ";
     int numberOfWords = 0;
@@ -22,7 +24,9 @@ int main(){
 
 	for (int i = 0; i < numberOfWords; i++)
 	{
-		printf("\n %s ", word4word[i]);
+        if(compare(word4word[i]) == 0){
+            printf("FAKE");
+        }
 	}
 	printf("\n");
 
@@ -34,4 +38,13 @@ int main(){
     }
 
 	return 0;
+}
+
+int compare(char string1[]){
+    for(int i = 0; i < 11; i++){
+        if(strcmp(string1, BigKeywords[i]) == 0){
+            return 0;
+        }
+    }
+    return 1;
 }

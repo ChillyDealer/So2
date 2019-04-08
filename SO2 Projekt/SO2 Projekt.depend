@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1554732496 source:c:\users\walid\onedrive\documents\github\so2\so2 projekt\main.c
+	<stdio.h>
+	<string.h>
+	"head.h"
+
+1554732496 c:\users\walid\onedrive\documents\github\so2\so2 projekt\head.h
+	<stdio.h>
+
