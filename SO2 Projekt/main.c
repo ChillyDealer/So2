@@ -7,7 +7,7 @@ int compare(char string1[]);
 int main(){
     int i = 0;
     int yes;
-	char str[] = "Nigger gay i omar er den";
+	char str[] = " Fuck du er den";
 	char *word4word[20];
 	char delim[] = " ";
     int numberOfWords = 0;
