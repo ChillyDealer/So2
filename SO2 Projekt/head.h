@@ -5,7 +5,7 @@
 
 
 
-    char *BigKeywords[]={"Nigger","Black","Violent","Nigerian","Gay","Fuck","Shit","Nigga","Motherfucker","Faggot","Asshole"};
+    char *BigKeywords[]={"Nigger","Black","Violent","Nigerian","Gay","Fuck","fuck","Shit","Nigga","Motherfucker","Faggot","Asshole"};
     char *MediumKeywords[]={"Aliens","Hillary","Fake","Nuclear","War","Assasinated","Putin","Russia","Omar","Gay","Sex","Raped"};
     char *SmallKeywords[]={"Trump","Abused","Believe","Porn","Amazing","Drugs"};
 
